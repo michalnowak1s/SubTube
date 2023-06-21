@@ -1,0 +1,24 @@
+﻿@using System.Web;
+@model IEnumerable<Google.Apis.YouTube.v3.Data.SearchResult>
+
+<h2>YouTube Videos</h2>
+
+@using (Html.BeginForm("Index", "YouTube", FormMethod.Get))
+{
+    <p>
+        <label for="channelName">Enter Channel Name:</label>
+        <input type="text" name="channelName" id="channelName" />
+        <input type="submit" value="Submit" />
+    </p>
+}
+
+<ul>
+    @foreach (var video in Model)
+    {
+        <li>
+            <p>@Html.Raw(@video.Snippet.Title)</p>
+            <img src="@video.Snippet.Thumbnails.Default__.Url" alt="Thumbnail" height="250" width="250" />
+            
+        </li>
+    }
+</ul>

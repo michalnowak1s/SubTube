@@ -20,4 +20,9 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+app.MapControllerRoute(
+    name: "YouTube",
+    pattern: "YouTube/{action}",
+    defaults: new { controller = "YouTube", action = "Index" }
+);
 app.Run();

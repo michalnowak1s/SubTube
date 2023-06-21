@@ -29,3 +29,10 @@ C:\Users\micha\source\repos\SubTube\SubTube\obj\Debug\net7.0\refint\SubTube.dll
 C:\Users\micha\source\repos\SubTube\SubTube\obj\Debug\net7.0\SubTube.pdb
 C:\Users\micha\source\repos\SubTube\SubTube\obj\Debug\net7.0\SubTube.genruntimeconfig.cache
 C:\Users\micha\source\repos\SubTube\SubTube\obj\Debug\net7.0\ref\SubTube.dll
+C:\Users\micha\source\repos\SubTube\SubTube\bin\Debug\net7.0\Google.Apis.dll
+C:\Users\micha\source\repos\SubTube\SubTube\bin\Debug\net7.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\micha\source\repos\SubTube\SubTube\bin\Debug\net7.0\Google.Apis.Auth.dll
+C:\Users\micha\source\repos\SubTube\SubTube\bin\Debug\net7.0\Google.Apis.Core.dll
+C:\Users\micha\source\repos\SubTube\SubTube\bin\Debug\net7.0\Google.Apis.YouTube.v3.dll
+C:\Users\micha\source\repos\SubTube\SubTube\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\micha\source\repos\SubTube\SubTube\obj\Debug\net7.0\SubTube.csproj.CopyComplete
