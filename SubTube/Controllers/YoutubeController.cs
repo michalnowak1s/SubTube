@@ -10,7 +10,7 @@ namespace SubTube.Controllers
         public ActionResult Index(string channelName)
         {
             // Replace "YOUR_API_KEY" with your actual API key obtained from the Google Cloud Console
-            string apiKey = "AIzaSyBhKfhfuAjKG54sPcRMErqy0JdQvkaaSms";
+            string apiKey = "${api_key}";
 
             // Create a YouTubeService instance with the API key
             var youtubeService = new YouTubeService(new BaseClientService.Initializer()
